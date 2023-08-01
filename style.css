@@ -1,0 +1,50 @@
+/* Set the width of the messages container */
+#message-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style the chat bubbles */
+  .message {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style the chat bubbles of the user */
+  .user-message {
+    background-color: #f1f0f0;
+  }
+  
+  /* Style the chat bubbles of the bot */
+  .bot-message {
+    background-color: #e4ffee;
+  }
+  
+  /* Style the form where users input their messages */
+  #send-container {
+    width: 600px;
+    margin: 10px auto;
+  }
+  
+  /* Style the input field and button */
+  #message-input {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #send-button {
+    vertical-align: top;
+    padding: 10px;
+    background-color: #007aff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
